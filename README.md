@@ -1,64 +1,54 @@
-﻿# IMPACT-BTECH-MINI-PROJECT
-IMPACT: Integrated Modeling for Predictive Analysis and Crisis Tracking
+# **IMPACT: Integrated Modeling for Predictive Analysis and Crisis Tracking**  
 
-Overview
+## **Overview**  
+IMPACT is an advanced disaster management system that integrates predictive analysis and crisis tracking to enhance emergency response and preparedness. This project provides real-time insights into landslide risks, weather conditions, and evacuation planning.  
 
-IMPACT is an advanced disaster management system that integrates predictive analysis and crisis tracking to enhance emergency response and preparedness. This project provides real-time insights into landslide risks, weather conditions, and evacuation planning.
+## **Features**  
+- **Landslide Risk Prediction:** Uses machine learning to predict the likelihood of landslides based on environmental factors.  
+- **Weather Forecasting:** Fetches real-time weather updates to aid disaster preparedness.  
+- **Chatbot Assistance:** Provides instant guidance on emergency response and preparedness.  
+- **Emergency Evacuation Route Finder:** Suggests safe locations and evacuation routes during a crisis.  
+- **SMS Alert System:** Sends emergency notifications and safety updates.  
 
-Features
+## **Tech Stack**  
 
-Landslide Risk Prediction: Uses machine learning to predict the likelihood of landslides based on environmental factors.
+### **Frontend**  
+- React (Vite)  
+- Tailwind CSS  
+- React Router  
 
-Weather Forecasting: Fetches real-time weather updates to aid disaster preparedness.
+### **Backend**  
+- Flask 
+- Machine Learning Model (XGBoost for landslide risk prediction)  
+- API Integration for real-time weather data  
 
-Chatbot Assistance: Provides instant guidance on emergency response and preparedness.
+## **Installation**  
 
-Emergency Evacuation Route Finder: Suggests safe locations and evacuation routes during a crisis.
+### **Clone the Repository**  
+```bash
+git clone https://github.com/THEJUSKRISHNAN/IMPACT-BTECH-MINI-PROJECT.git
+cd IMPACT-BTECH-MINI-PROJECT
+```
 
-SMS Alert System: Sends emergency notifications and safety updates.
-
-Tech Stack
-
-Frontend
-
-React (Vite)
-
-Tailwind CSS
-
-React Router
-
-Backend
-
-Flask (FastAPI was replaced)
-
-Machine Learning Model (XGBoost for landslide risk prediction)
-
-API Integration for real-time weather data
-
-Installation
-
-Clone the Repository
-
-git clone https://github.com/your-username/IMPACT.git
-cd IMPACT
-
-Frontend Setup
-
+### **Frontend Setup**  
+```bash
 cd frontend
 npm install
 npm run dev
+```
 
-Backend Setup
-
+### **Backend Setup**  
+```bash
 cd backend
 python -m venv venv
 source venv/bin/activate   # For macOS/Linux
 venv\Scripts\activate      # For Windows
 pip install -r requirements.txt
 python app.py
+```
 
-Usage
+## **Usage**  
+- Access the frontend at **[http://localhost:5173](http://localhost:5173)**  
+- The backend runs at **[http://127.0.0.1:5000](http://127.0.0.1:5000)**  
 
-Access the frontend at http://localhost:5173
 
-The backend runs at http://127.0.0.1:5000
